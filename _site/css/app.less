@@ -1,0 +1,52 @@
+
+body {
+  h1, h2, h3, h4 {
+    font-family: 'Goudy Bookletter 1911', serif;
+  }
+  background-image: url('../img/noise1.png');
+}
+
+.container .jumbotron {
+  margin-bottom: 0;
+  height: 100%;
+}
+
+hr {
+  border-color: #888;
+}
+
+.carousel {
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.letterhead {
+  @scale: 60%;
+
+  background-color: rgba(0,0,0,0.02);
+  border: 1px dashed rgba(0,0,0,0.1);
+
+  margin-top: 1.5em;
+  hr {
+    border-color: #888;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+
+  ul li {
+  }
+
+  .logo {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: @scale;
+    height: @scale;
+  }
+  h1 {
+    font-size: 5.5em;
+  }
+}
