@@ -1,1 +1,1 @@
-exclude: [Rakefile, Gemfile, Gemfile.lock, config.ru]
+exclude: [Rakefile, Gemfile, Gemfile.lock, config.ru, lib]
