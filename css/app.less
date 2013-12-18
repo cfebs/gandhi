@@ -1,52 +1,24 @@
+@color1: #eee;
+@color2: #eee;
+@color3: #eee; // darker
+@color4: #222; // darkest
+@color5: #eee; // links
+
+* {
+  font-family: 'Source Sans Pro', serif;
+}
+
+a {
+  color: @color5;
+}
 
 body {
-  h1, h2, h3, h4 {
-    font-family: 'Goudy Bookletter 1911', serif;
-  }
-  background-image: url('../img/noise1.png');
+  margin: 0;
+  padding: 0;
 }
 
-.container .jumbotron {
-  margin-bottom: 0;
-  height: 100%;
-}
 
-hr {
-  border-color: #888;
-}
-
-.carousel {
-  border: 1px solid rgba(0,0,0,0.2);
-}
-
-.letterhead {
-  @scale: 60%;
-
-  background-color: rgba(0,0,0,0.02);
-  border: 1px dashed rgba(0,0,0,0.1);
-
-  margin-top: 1.5em;
-  hr {
-    border-color: #888;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  h2 {
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
-  }
-
-  ul li {
-  }
-
-  .logo {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    width: @scale;
-    height: @scale;
-  }
-  h1 {
-    font-size: 5.5em;
-  }
+.ui.page.segment {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
