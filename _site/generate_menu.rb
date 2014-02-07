@@ -13,7 +13,7 @@ end
 content = YAML.load(file.read);
 #pp content
 
-def tag name, args={}, content=''
+def tag name, content, args={}
   arg_string = ""
   args.each do |k,v|
     arg_string += " #{k}=\"#{v}\""
@@ -28,26 +28,24 @@ def table columns, data
     cells += "  " + tag('td', tag('span', row['name']) + tag('p', row['desc']))
 
     cells += "  " + tag('td', row['cost'])
-    # not used but save
-    #columns.each do |c|
-      #cells += "  " + tag('td', row[c])
-    #end
+
     rows += tag('tr', cells)
   end
-  tag('table', {class: 'table table-striped menu'}, rows)
+  tag('table', rows, {class: 'table table-striped menu'})
 end
 
-out = ""
-temp = ""
+out = tmp = ""
 i = 0
 content.each do |title, rows|
   i += 1
-  out += tag('div', {class: 'row'},
-    "\n" + tag('h2', title)\
-    + tag('div', {class: 'col-md-6'},
-        table(['name', 'desc', 'cost'], rows)
-      )
-    )
-end
+  tmp += "\n" + tag('h2', title)
+  tab = table(['name', 'desc', 'cost'], rows)
+  tmp += tag('div', tab, {class: 'col-md-6'})
 
+  if i % 2 == 0
+    out += tag('div', tmp, {class: 'row'})
+    i = 0
+    tmp = ''
+  end
+end
 puts out
