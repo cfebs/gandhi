@@ -1,2 +1,3 @@
 .rvmrc
 .rake_tasks~
+_site/*

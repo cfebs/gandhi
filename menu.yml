@@ -119,3 +119,127 @@ Condiments:
   - name: Mango or Lime Pickle
     desc: Hot and Spicy
     cost: 1.50
+
+Beverages:
+  - name: Lassi/Coconut Lassi
+    desc: Yogurt drink served with rose water
+    cost: 2.50
+
+  - name: Mango Lassi
+    desc: Refreshing mango & yogurt drink
+    cost: 2.50
+
+  - name: Soda
+    desc:
+    cost: 1.50
+
+  - name: Tea or Coffee
+    desc:
+    cost: 1.50
+
+  - name: Juices
+    desc: Mango, Cranberry, Orange or Guave
+    cost: 1.75
+
+  - name: Masala Tea
+    desc: Tea made with spice and milk
+    cost: 2.50
+
+  - name: Doodh Patti
+    desc: Tea made with milk
+    cost: 2.50
+
+  - name: Spice Tea
+    desc: Tea made with cardamoin and cinnamon
+    cost: 1.50
+
+  - name: Home Made Ice Tea
+    desc:
+    cost: 1.95
+
+Desserts:
+  - name: Kheer
+    desc: Indian rice pudding flavored with rose water, garnished with pistachios
+    cost: 2.25
+
+  - name: Rasmalai
+    desc: Home made cheese ball in cream sauce with nuts
+    cost: 2.95
+
+  - name: Mango Ice Cream
+    desc: served with flavored rose water
+    cost: 2.95
+
+  - name: Kulfi
+    desc: Home made Indian Ice cream
+    cost: 2.95
+
+  - name: Baklava
+    desc: Walnuts and almonds covered with filo
+    cost: 1.95
+
+  - name: Gulab Jaaman
+    desc:
+    cost: 2.95
+
+Chicken Entrees:
+  - name: Methi Chicken
+    desc: Chicken cooked with Indian fresh leaf
+    cost: 10.95
+
+  - name: Chicken Tikka Masala
+    desc: Broiled chicken cubes cooked with tomato & cream sauce
+    cost: 10.95
+    featured: true
+
+  - name: Chicken Kali Mirch
+    desc: Chicken cooked with black pepper and onion with curry sauce
+    cost: 10.95
+
+  - name: Chicken Makhani
+    desc: Boneless roasted chicken cooked in fresh tomato sauce
+    cost: 10.95
+
+  - name: Chicken Saagwala
+    desc: Chicken cooked with fresh spinach & enhanced with herbs
+    cost: 9.95
+
+  - name: Chili Chicken
+    desc: Coked with Indian fresh chili
+    cost: 10.95
+
+  - name: Chicken Maki Masala
+    desc:
+    cost: 10.95
+
+  - name: Chicken Korma
+    desc: 10.95
+    cost: Cooked with cream & almond in a flavored mild sauce
+
+  - name: Chicken Jalfrazi
+    desc: Cooked with fresh assorted vegetables, mild spice
+    cost: 10.95
+
+  - name: Chicken Vindaloo
+    desc: Bonless chicken cooked in a very hot sauce
+    cost: 10.95
+
+  - name: Chicken Dopiaza
+    desc: Boneless chicken cooked with onion and gren pepper in a flavored sauce
+    cost: 10.95
+
+  - name: Chicken Karahi
+    desc: Cooked with tomatoes and onion in a special sauce and served in a hot pan
+    cost: 11.95
+
+  - name: Chicken Madras
+    desc: In medium sauce cooked with tomatoes
+    cost: 10.95
+
+  - name: Chicken Achari
+    desc: Curry chicken cooked with pickle
+    cost: 10.95
+
+  - name: Chicken Curry
+    desc: Boneless chicken cooked in mild curry sauce
+    cost: 9.95

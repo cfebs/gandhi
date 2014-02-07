@@ -38,8 +38,8 @@ out = tmp = ""
 i = 0
 content.each do |title, rows|
   i += 1
-  tmp += "\n" + tag('h2', title)
-  tab = table(['name', 'desc', 'cost'], rows)
+  tab = "\n" + tag('h2', title)
+  tab += table(['name', 'desc', 'cost'], rows)
   tmp += tag('div', tab, {class: 'col-md-6'})
 
   if i % 2 == 0
