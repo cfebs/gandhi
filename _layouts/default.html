@@ -22,23 +22,19 @@
     <![endif]-->
 </head>
 <body>
-  <section class="orange">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h1 class="title">GANDHI</h1>
-        </div>
-        <div class="col-md-8">
-          <ul class="menu list-inline">
-            <li>518 - 449 - 5577</li>
-            <li><a href="#specials">Specials</a></li>
-            <li>Menu</li>
-            <li><a href="#contact">Map & Contact</a></li>
-          </ul>
-        </div>
+  {% include orange.html %}
+
+  <div class="container">
+    <div class="row">
+      <div class="md-col-12">
+        <h3>Check out what our customers our saying:</h3>
+        <blockquote>
+          <p><b>The new chef</b> came out and asked us all about the food, with the biggest smile on his face, and the nicest energy I've ever gotten from any chef who did a walk-around. The server went out of her way to make sure we got what we would enjoy, and was very pleasant and attentive.</p>
+          <footer>A <cite title="Source Title">Google+</cite> Review</footer>
+        </blockquote>
       </div>
     </div>
-  </section>
+  </div>
 
   <div class="container">
     {{ content }}

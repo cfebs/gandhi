@@ -6,240 +6,462 @@
 Appetizers:
   - name: Combination Platter
     desc: Malai kabab, barrah kabab, chicken tikka & fish tikka
-    cost: 7.95
+    cost: $7.95
 
   - name: Sami Kabob
     desc:
-    cost: 4.95
+    cost: $4.95
 
   - name: Samosa Chat
     desc:
-    cost: 4.95
+    cost: $4.95
 
   - name: Samosa (with potatoes and peas)
     desc:
-    cost: 3.50
+    cost: $3.50
 
   - name: Papadum (thin bean wafers)
     desc:
-    cost: 1.50
+    cost: $1.50
 
   - name: Vegt. Pakoras
     desc: Crispy light fritters with chutneys
-    cost: 3.95
+    cost: $3.95
 
   - name: Aloo Papri
     desc: Fritters with potatoes, chickpeas & chutneys
-    cost: 3.95
+    cost: $3.95
 
   - name: Ka-Chori
     desc: So good we can't describe it
-    cost: 4.50
+    cost: $4.50
 
   - name: Aloo Tikiya (potato cake with chutney)
     desc:
-    cost: 3.95
+    cost: $3.95
 
   - name: Assorted Appetizer
     desc: Alo tikka, somosa, assorted pakora & papadum
-    cost: 4.95
+    cost: $4.95
 
   - name: Green Salad
     desc: Crisp garden fresh salad with house dressing
-    cost: 3.95
+    cost: $3.95
 
 Soup:
   - name: Coconut Soup
     desc: Cream and coconut cooked in a sweet sauce
-    cost: 2.95
+    cost: $2.95
 
   - name: Mulligatawny Soup
     desc: Made with lentils, tomato, lemon and spice
-    cost: 2.95
+    cost: $2.95
 
 Breads From Tandoori Clay Oven:
   - name: Naan (soft white flour bread)
     desc:
-    cost: 1.95
+    cost: $1.95
 
   - name: Garlic, Onion, Cheese Naan
     desc: bread stuffed
-    cost: 2.95
+    cost: $2.95
 
   - name: Paratha
     desc: A multi layered bread made with butter
-    cost: 2.95
+    cost: $2.95
 
   - name: Khandari Naan
     desc: Soft white bread made with almonds, raisins & assorted fruits
-    cost: 3.95
+    cost: $3.95
 
   - name: Aloo Naan
     desc: Stuffed bread with potatoes & light spices
-    cost: 2.95
+    cost: $2.95
 
   - name: Roti or Chappati
     desc: Roasted white bread from tandoori clay oven
-    cost: 1.95
+    cost: $1.95
 
   - name: Puddina Paratha
     desc: A soft bread made with fresh mint
-    cost: 2.95
+    cost: $2.95
 
   - name: Jalapeno Cheese Naan
     desc: Fresh jalapenos and cheese
-    cost: 2.95
+    cost: $2.95
 
   - name: Chicken Tikka Naan
     desc:
-    cost: 2.95
+    cost: $2.95
 
 Breads From The Grill:
   - name: Gobi - Ponir - Muli - Aloo - Parathata
     desc:
-    cost:  2.95
+    cost:  $2.95
 
   - name: Poori
     desc: Fried or puffed
-    cost: 2.95
+    cost: $2.95
 
 Condiments:
   - name: Raita
     desc: yogurt with cucumber and carrot
-    cost: 1.50
+    cost: $1.50
 
   - name: Mango Chutney
     desc: sweet and sour
-    cost: 1.50
+    cost: $1.50
 
   - name: Mix Pickle
     desc: Medium spicy
-    cost: 1.50
+    cost: $1.50
 
   - name: Mango or Lime Pickle
     desc: Hot and Spicy
-    cost: 1.50
+    cost: $1.50
 
 Beverages:
   - name: Lassi/Coconut Lassi
     desc: Yogurt drink served with rose water
-    cost: 2.50
+    cost: $2.50
 
   - name: Mango Lassi
     desc: Refreshing mango & yogurt drink
-    cost: 2.50
+    cost: $2.50
 
   - name: Soda
     desc:
-    cost: 1.50
+    cost: $1.50
 
   - name: Tea or Coffee
     desc:
-    cost: 1.50
+    cost: $1.50
 
   - name: Juices
     desc: Mango, Cranberry, Orange or Guave
-    cost: 1.75
+    cost: $1.75
 
   - name: Masala Tea
     desc: Tea made with spice and milk
-    cost: 2.50
+    cost: $2.50
 
   - name: Doodh Patti
     desc: Tea made with milk
-    cost: 2.50
+    cost: $2.50
 
   - name: Spice Tea
     desc: Tea made with cardamoin and cinnamon
-    cost: 1.50
+    cost: $1.50
 
   - name: Home Made Ice Tea
     desc:
-    cost: 1.95
+    cost: $1.95
 
 Desserts:
   - name: Kheer
     desc: Indian rice pudding flavored with rose water, garnished with pistachios
-    cost: 2.25
+    cost: $2.25
 
   - name: Rasmalai
     desc: Home made cheese ball in cream sauce with nuts
-    cost: 2.95
+    cost: $2.95
 
   - name: Mango Ice Cream
     desc: served with flavored rose water
-    cost: 2.95
+    cost: $2.95
 
   - name: Kulfi
     desc: Home made Indian Ice cream
-    cost: 2.95
+    cost: $2.95
 
   - name: Baklava
     desc: Walnuts and almonds covered with filo
-    cost: 1.95
+    cost: $1.95
 
   - name: Gulab Jaaman
     desc:
-    cost: 2.95
+    cost: $2.95
 
 Chicken Entrees:
   - name: Methi Chicken
     desc: Chicken cooked with Indian fresh leaf
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Tikka Masala
     desc: Broiled chicken cubes cooked with tomato & cream sauce
-    cost: 10.95
+    cost: $10.95
     featured: true
 
   - name: Chicken Kali Mirch
     desc: Chicken cooked with black pepper and onion with curry sauce
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Makhani
     desc: Boneless roasted chicken cooked in fresh tomato sauce
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Saagwala
     desc: Chicken cooked with fresh spinach & enhanced with herbs
-    cost: 9.95
+    cost: $9.95
 
   - name: Chili Chicken
     desc: Coked with Indian fresh chili
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Maki Masala
     desc:
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Korma
-    desc: 10.95
+    desc: $10.95
     cost: Cooked with cream & almond in a flavored mild sauce
 
   - name: Chicken Jalfrazi
     desc: Cooked with fresh assorted vegetables, mild spice
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Vindaloo
     desc: Bonless chicken cooked in a very hot sauce
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Dopiaza
     desc: Boneless chicken cooked with onion and gren pepper in a flavored sauce
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Karahi
     desc: Cooked with tomatoes and onion in a special sauce and served in a hot pan
-    cost: 11.95
+    cost: $11.95
 
   - name: Chicken Madras
     desc: In medium sauce cooked with tomatoes
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Achari
     desc: Curry chicken cooked with pickle
-    cost: 10.95
+    cost: $10.95
 
   - name: Chicken Curry
     desc: Boneless chicken cooked in mild curry sauce
-    cost: 9.95
+    cost: $9.95
+
+Lamb or Beef Dishes:
+  - name: Punjabi Lamb Korma
+    desc: Lamb cooked with garlic ginger and spice
+    cost: $10.95
+
+  - name: Lamb Tikki Masala
+    desc: Cream sauce with onions and peppers
+    cost: $10.95
+
+  - name: Lamb or Beef Curry
+    desc: Lean meat cooked in mild curry sauce
+    cost: $10.95
+
+  - name: Lamb or Beef Saagwala
+    desc: Cooked with fresh spinach and enhanced with herbs
+    cost: $10.95
+
+  - name: Lamb or Beef Vindaloo
+    desc: Meat cooked in very hot sauce
+    cost: $10.95
+
+  - name: Lamb or Beef Dopiaza
+    desc: Meat cooked with onion, green pepper and tomatoes in flavored sauce
+    cost: $10.95
+
+  - name: Lamb or Beef Jalfrazi
+    desc: Meat cooked with fresh vegetables in a mild sauce
+    cost: $10.95
+
+  - name: Lamb or Beef Korm
+    desc: Cooked with cream & almonds in a flavored mild sauce
+    cost: $10.95
+
+  - name: Lamb or Beef Karahi
+    desc: Cooked with green peppers, tomatoes, onions in a special sauce and severed in hot pan
+    cost: $11.95
+
+  - name: Lamb or Beef Madras
+    desc: Meat cooked with tomatoes in a medium spicy sauce
+    cost: $10.95
+
+  - name: Lamb or Beef Rogan Josh
+    desc: Cooked with flavored garlic & ginger sauce
+    cost: $10.95
+
+Biryani Dishes:
+  - name: White Rice
+    desc:
+    cost: $1.95
+
+  - name: Basmati Safron Rice
+    desc:
+    cost: $2.95
+
+  - name: Vegetable Rice
+    desc: Basmati rice cooked with fresh vegetables
+    cost: $2.95
+
+  - name: Chicken Biryani
+    desc: Chicken cooked with saffron rice, ghee, raisin, almond & pistachio
+    cost: $10.95
+
+  - name: Beef or Lamb Biryani
+    desc: Lamb or beef cooked with saffron rice, ghee, raisin, almond & pistachio nut
+    cost: $10.95
+
+  - name: Shirmp Biryani
+    desc: Shrimp cooked with saffron rice, ghee, raisin, almond & pistachio nut
+    cost:
+
+  - name: Vegetable Biryani
+    desc: Assorted Vegetables cooked with saffron rice, ghee, raisin, almond & pistachio nut
+    cost: $10.95
+
+  - name: Ghandi Biryani
+    desc: Assortment of Chicken, Lamb and Beef
+    cost: $11.95
+
+Sea Food Specialties:
+  - name: Goa or Salmon Curry
+    desc: Fresh fish cooked in coconut & cream sauce
+    cost: $14.95
+
+  - name: Malabar Salmon
+    desc: Fish cooked with mustard sauce
+    cost: $14.95
+
+  - name: Shrimp Curry
+    desc: Prepared in authentic sauce and flavor
+    cost: $14.95
+
+  - name: Shrimp Jalfrazi
+    desc: Cooked with assorted vegetables in a lightly spicy sauce
+    cost: $14.95
+
+  - name: Shrimp Mushroom or Spinach
+    desc: Shrimp cooked with mushrooms or spinach in a lightly spicy sauce
+    cost: $14.95
+
+  - name: Crab Masala
+    desc: Cooked with fresh coconut & spices
+    cost: $14.95
+
+  - name: Shrimp Tikki Masla
+    desc:
+    cost: $14.95
+
+Vegetarian Entrees:
+  - name: Achari Begun
+    desc: Eggplant
+    cost: $9.95
+
+  - name: Mixed Vegetable Curry
+    desc: Garden fresh vegetables cooked with mild spicy sauce
+    cost: $8.95
+
+  - name: Daal Makhani
+    desc: Stewed black grain lentil cooked with tomato flavor
+    cost: $8.95
+
+  - name: Saag or Mattar Ponir
+    desc: Hommade cheese cooked fresh spinach or peas
+    cost: $8.95
+
+  - name: Begun Bartha
+    desc: Whole eggplant baked in tandoor, cooked with onion & peas
+    cost: $8.95
+
+  - name: Allo Dum
+    desc: Stuffed potatoes cooked in light spicy sauce
+    cost: $8.95
+
+  - name: Vegetable Jalfrazi
+    desc: Sauté assorted vegetables cooked in mild spicy sauce
+    cost: $8.95
+
+  - name: Bavaratan Kurma
+    desc: Assorted vegetables cooked with cream and almonds in highly flavored mild sauce
+    cost: $8.95
+
+  - name: Malai Kofta
+    desc: Vegetable balls cooked with tomatoes in mild garlic & ginger sauce
+    cost: $8.95
+
+  - name: Chana Masala
+    desc: Chick peas cooked with tomatoes and onions
+    cost: $8.95
+
+  - name: Bindhi Masala
+    desc: Fresh okra cooked with mild spicy sauce
+    cost: $8.95
+
+  - name: Aloo Gobi
+    desc: Potato and cauliflower cooked with cumin & spices
+    cost: $8.95
+
+  - name: Chana Saag
+    desc: Chick peas cooked fresh spinach and curry sauce
+    cost: $8.95
+
+  - name: Aloo Mottor
+    desc: Marinated potato and peas cooked with light curry sauce
+    cost: $8.95
+
+  - name: Dal Tarka
+    desc: Split yellow peas cooked with garlic and ginger
+    cost: $8.95
+
+  - name: Ponir Tikka Masala
+    desc: Broiled homemade cheese cubes cooked with tomatoes and cream sauce
+    cost: $11.95
+    featured: true
+
+  - name: Ponir Karahi
+    desc: Homemade cheese cooked with green peppers, onions, tomatoes, sauce and served in a hot pan
+    cost: $11.95
+
+  - name: Bund Gobialoo
+    desc: Cabbage cooked with potatoes
+    cost: $8.95
+
+Tandoori Main Courses:
+  - name: Ponir Tikki
+    desc: Hommade cheese
+    cost: 11.95
+
+  - name: Resmi Kabab
+    desc:
+    cost: 10.95
+
+  - name: Tandoori Chicken
+    desc: Marinated in yogurt and mild spicy sauce then baked in tandoori clay oven
+    cost: 10.95
+
+  - name: Chicken Tikka
+    desc: Boneless chicken marinated in lightly spiced with yogurt sauce then baked in tandoori clay oven
+    cost: 10.95
+
+  - name: Chicken Malai Kabab
+    desc: Supreme marinated in cream cheese & fresh herbs
+    cost: 10.95
+
+  - name: Barrah Kabab
+    desc: Juicy pieces of lamb marinated in yogurt sauce then baked in tandoori clay oven
+    cost: 10.95
+
+  - name: Sheek Kabab
+    desc: Aromic minced lamb marinated with mild spices then baked in tandoori clay oven
+    cost: 10.95
+
+  - name: Mix Grill
+    desc: Assortments of lamb, chicken & sea food cooked in tandoori clay oven
+    cost: 13.95
+
+  - name: Shrimp Tandoori
+    desc: Marinated with light spicy sauce and cooked in tandoori clay oven
+    cost: 14.95
+
+  - name: Fish Tikka
+    desc: Medallion marinated with very light spices and cooked in tandoori clay oven
+    cost: 14.95

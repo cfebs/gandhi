@@ -48,4 +48,5 @@ content.each do |title, rows|
     tmp = ''
   end
 end
+out += tag('div', tmp, {class: 'row'})
 puts out
