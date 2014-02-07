@@ -1,0 +1,121 @@
+#
+# - name: X
+#   desc: Y
+#   cost: Z
+---
+Appetizers:
+  - name: Combination Platter
+    desc: Malai kabab, barrah kabab, chicken tikka & fish tikka
+    cost: 7.95
+
+  - name: Sami Kabob
+    desc:
+    cost: 4.95
+
+  - name: Samosa Chat
+    desc:
+    cost: 4.95
+
+  - name: Samosa (with potatoes and peas)
+    desc:
+    cost: 3.50
+
+  - name: Papadum (thin bean wafers)
+    desc:
+    cost: 1.50
+
+  - name: Vegt. Pakoras
+    desc: Crispy light fritters with chutneys
+    cost: 3.95
+
+  - name: Aloo Papri
+    desc: Fritters with potatoes, chickpeas & chutneys
+    cost: 3.95
+
+  - name: Ka-Chori
+    desc: So good we can't describe it
+    cost: 4.50
+
+  - name: Aloo Tikiya (potato cake with chutney)
+    desc:
+    cost: 3.95
+
+  - name: Assorted Appetizer
+    desc: Alo tikka, somosa, assorted pakora & papadum
+    cost: 4.95
+
+  - name: Green Salad
+    desc: Crisp garden fresh salad with house dressing
+    cost: 3.95
+
+Soup:
+  - name: Coconut Soup
+    desc: Cream and coconut cooked in a sweet sauce
+    cost: 2.95
+
+  - name: Mulligatawny Soup
+    desc: Made with lentils, tomato, lemon and spice
+    cost: 2.95
+
+Breads From Tandoori Clay Oven:
+  - name: Naan (soft white flour bread)
+    desc:
+    cost: 1.95
+
+  - name: Garlic, Onion, Cheese Naan
+    desc: bread stuffed
+    cost: 2.95
+
+  - name: Paratha
+    desc: A multi layered bread made with butter
+    cost: 2.95
+
+  - name: Khandari Naan
+    desc: Soft white bread made with almonds, raisins & assorted fruits
+    cost: 3.95
+
+  - name: Aloo Naan
+    desc: Stuffed bread with potatoes & light spices
+    cost: 2.95
+
+  - name: Roti or Chappati
+    desc: Roasted white bread from tandoori clay oven
+    cost: 1.95
+
+  - name: Puddina Paratha
+    desc: A soft bread made with fresh mint
+    cost: 2.95
+
+  - name: Jalapeno Cheese Naan
+    desc: Fresh jalapenos and cheese
+    cost: 2.95
+
+  - name: Chicken Tikka Naan
+    desc:
+    cost: 2.95
+
+Breads From The Grill:
+  - name: Gobi - Ponir - Muli - Aloo - Parathata
+    desc:
+    cost:  2.95
+
+  - name: Poori
+    desc: Fried or puffed
+    cost: 2.95
+
+Condiments:
+  - name: Raita
+    desc: yogurt with cucumber and carrot
+    cost: 1.50
+
+  - name: Mango Chutney
+    desc: sweet and sour
+    cost: 1.50
+
+  - name: Mix Pickle
+    desc: Medium spicy
+    cost: 1.50
+
+  - name: Mango or Lime Pickle
+    desc: Hot and Spicy
+    cost: 1.50
