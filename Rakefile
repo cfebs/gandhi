@@ -3,7 +3,7 @@ task :default => 'gah:server'
 namespace :gah do
   desc "Push out to remotes"
   task :push_all do
-    remotes = ['origin', 'heroku']
+    remotes = ['origin', 'prod']
     remotes.each { |r| sh "git push #{r} master" }
   end
 
