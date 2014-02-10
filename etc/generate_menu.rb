@@ -1,18 +1,10 @@
 #!/usr/bin/env ruby
 
 require 'yaml'
-require 'pp'
 
-file = File.open(ARGV.first, 'rb');
+## Utility Functions
 
-if not file
-  puts "Not a valid file, try again"
-  exit
-end
-
-content = YAML.load(file.read);
-#pp content
-
+# html tag helper
 def tag name, content, args={}
   arg_string = ""
   args.each do |k,v|
@@ -21,7 +13,9 @@ def tag name, content, args={}
   "<#{name}#{arg_string}>#{content}</#{name}>\n"
 end
 
-def table columns, data
+# generates a table for each menu row
+# combines name and description in one <td>
+def table data
   rows = "\n"
   data.each do |row|
     cells = "\n"
@@ -34,19 +28,52 @@ def table columns, data
   tag('table', rows, {class: 'table table-striped menu'})
 end
 
-out = tmp = ""
-i = 0
-content.each do |title, rows|
-  i += 1
-  tab = "\n" + tag('h2', title)
-  tab += table(['name', 'desc', 'cost'], rows)
-  tmp += tag('div', tab, {class: 'col-md-6'})
+#
+# Main
+#
 
-  if i % 2 == 0
-    out += tag('div', tmp, {class: 'row'})
-    i = 0
-    tmp = ''
+file = File.open(ARGV.first, 'rb');
+
+if not file
+  puts "Not a valid file, try again"
+  exit
+end
+
+# this is the YAML file loaded as a ruby native hash
+content = YAML.load(file.read);
+
+
+out = column_buffer = ""
+current_column_size = 0
+size = 25
+cols = 0
+
+content.each do |title, rows|
+  # if we currently can fit more rows
+  if current_column_size < size
+    # add them to the current column
+    heading = "\n" + tag('h2', title)
+    column_buffer += heading + table(rows)
+    current_column_size += rows.size
+  end
+
+  # if we went over the column size limit
+  if current_column_size >= size
+    # wrap the current column in a special column tag and add it to the output
+    out += tag('div', column_buffer, {class: 'col-md-6'})
+    current_column_size = 0
+    column_buffer = ""
+    cols += 1
+  end
+
+  # if we have reached 2 columns
+  if cols == 2
+    # then we can wrap the current output in a row tag
+    out = tag('div', out, {class: 'row'})
+    cols = 0
+    current_column_size = 0
+    column_buffer = ""
   end
 end
-out += tag('div', tmp, {class: 'row'})
+# put it out
 puts out
