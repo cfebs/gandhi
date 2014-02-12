@@ -213,8 +213,8 @@ Chicken Entrees:
     cost: $10.95
 
   - name: Chicken Korma
-    desc: $10.95
-    cost: Cooked with cream & almond in a flavored mild sauce
+    desc: Cooked with cream & almond in a flavored mild sauce
+    cost: $10.95
 
   - name: Chicken Jalfrazi
     desc: Cooked with fresh assorted vegetables, mild spice
