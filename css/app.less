@@ -3,6 +3,7 @@
 @color3: #eee; // darker
 @color4: #222; // darkest
 @color5: #eee; // links
+@orange: #FF7F2A; // links
 
 * {
   font-family: 'Source Sans Pro', serif;
@@ -39,8 +40,27 @@ table.menu p {
 }
 
 .orange {
-  background-color: #F27827;
+  background-color: @orange;
   box-shadow: inset 0 0 100px rgba(0,0,0,.15);
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.order_online {
+  background: darken(@orange, 10%);
+  font-size: 2rem;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  transition: background 0.15s;
+
+  &:hover {
+    color: #fff;
+    background: darken(@orange, 13%);
+  }
 }
 
 .title {
@@ -54,6 +74,10 @@ table.menu p {
 
 .top-row {
   padding-top: 2em;
+
+  hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+  }
 }
 
 #top {
@@ -65,7 +89,7 @@ table.menu p {
 .map {
   padding: 0;
   border: 1px solid rgba(0,0,0,.2);
-  height: 302px;
+  height: 352px;
 }
 
 .mid-size {
