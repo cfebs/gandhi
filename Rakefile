@@ -14,6 +14,7 @@ namespace :gah do
 
   desc "Run dev server"
   task :server do
-    `jekyll serve -w`
+    puts 'Serving on 4000'
+    `jekyll serve -H 0.0.0.0 -P 4000 -w`
   end
 end
